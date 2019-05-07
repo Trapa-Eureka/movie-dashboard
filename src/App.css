@@ -4,6 +4,11 @@
   grid-gap: 0;
   min-height: 100vh;
 }
+ul, li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
 .App .left {
   display: grid;
   grid-template-rows: repeat(3, 1fr);
@@ -51,6 +56,68 @@
   letter-spacing: -0.5px;
   color: #c0c4d6;
 }
+
+.menu {
+  display: grid;
+  grid-template-rows: repeat(5, min-content);
+  grid-gap: 0;
+}
+.menu span {
+  padding-left: 25px;
+  color: #c0c4d6;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 13px;
+}
+.menu li {
+  display: grid;
+  grid-template-columns: repeat(2, max-content);
+  grid-gap: 0;
+  width: 150px;
+  padding-left: 25px;
+}
+.menu li svg {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  padding-right: 16px;
+  width: 24px;
+  height: 24px;
+  fill: #c0c4d6;
+}
+.menu li p {
+  font-size: 14px;
+  font-weight: 600;
+  color: #c0c4d6;
+}
+.menu li.activity {
+  display: grid;
+  grid-template-columns: repeat(3, max-content);
+  grid-gap: 0;
+}
+li.activity .count {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  width: 37px;
+  height: 15px;
+  padding: 3px 0;
+  line-height: 15px;
+  border-radius: 15px;
+  background-color: #c0c4d6;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 600;
+  margin-left: 30px;
+}
+.menu li.selected {
+  background-image: linear-gradient(to right, #00e3f7 3%, #ffffff 1%);
+}
+li.selected svg, li.selected p {
+  color: #676a86;
+  fill: #676a86;
+}
+
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
