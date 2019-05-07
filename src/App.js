@@ -7,9 +7,11 @@ function App() {
     <div className="App">
       <div className="left">
         <div className="info">
-          <span className="info-title">WatchMovies</span>
-          <div className="info-image"></div>
-          <span className="info-author"></span>
+          <div className="info-title">Watch<span>Movies</span></div>
+          <div className="info-image">
+            <div className="img"></div>
+          </div>
+          <span className="info-author">Mary Jane</span>
         </div>
         <div className="menu"></div>
         <div className="label-tag"></div>

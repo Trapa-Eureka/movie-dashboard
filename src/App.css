@@ -17,7 +17,39 @@
 .info .info-title {
   display: flex;
   justify-content: center;
-  align-self: center;
+  align-self: flex-end;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+.info-title span {
+  font-weight: 300;
+}
+.info .info-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.info-image .img {
+  width: 70px;
+  height: 70px;
+  border-radius: 35px;
+  background-image: url("https://cdn2.stylecraze.com/wp-content/uploads/2014/12/184-15-bollywood-stars-without-makeup.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  -webkit-box-shadow: 0px 25px 43px -18px rgba(0,102,255,0.5);
+  -moz-box-shadow: 0px 25px 43px -18px rgba(0,102,255,0.5);
+  box-shadow: 0px 25px 43px -18px rgba(0,102,255,0.5);
+}
+
+.info .info-author {
+  display: flex;
+  justify-content: center;
+  align-self: flex-start;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: -0.5px;
+  color: #c0c4d6;
 }
 
 .App-logo {
