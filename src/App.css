@@ -1,5 +1,23 @@
 .App {
-  text-align: center;
+  display: grid;
+  grid-template-columns: 17% 83%;
+  grid-gap: 0;
+  min-height: 100vh;
+}
+.App .left {
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: 0;
+}
+.left .info {
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: 0;
+}
+.info .info-title {
+  display: flex;
+  justify-content: center;
+  align-self: center;
 }
 
 .App-logo {
@@ -21,6 +39,10 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.movie {
+  background-color: #eff3f8;
 }
 
 @keyframes App-logo-spin {
