@@ -42,7 +42,24 @@ class App extends Component {
               <div className="count">2</div>
             </li>
           </ul>
-          <div className="label-tag"></div>
+          <div className="divide-area">
+            <div className="divide"></div>
+          </div>
+          <ul className="label-tag">
+            <span>Labels</span>
+            <li>
+              <div className="circle"></div>
+              <p>See with Bobbie</p>
+            </li>
+            <li>
+              <div className="circle"></div>
+              <p>Just for fun</p>
+            </li>
+            <li>
+              <div className="circle"></div>
+              <p>Motivation</p>
+            </li>
+          </ul>
         </div>
         <div className="movie"></div> 
       </div>
