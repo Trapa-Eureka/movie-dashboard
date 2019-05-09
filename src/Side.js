@@ -8,7 +8,7 @@ class Side extends Component {
                 <div className="info">
                     <div className="info-title">Watch<span>Movies</span></div>
                     <div className="info-image">
-                    <div className="img"></div>
+                        <Photo />
                     </div>
                     <span className="info-author">Mary Jane</span>
                 </div>
@@ -59,6 +59,14 @@ class Side extends Component {
                     </li>
                 </ul>
             </div>
+        );
+    }
+}
+
+class Photo extends Component {
+    render() {
+        return (
+            <div className="Photo"></div>
         );
     }
 }
