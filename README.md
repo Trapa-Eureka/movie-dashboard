@@ -1,3 +1,5 @@
 ## Movie Dashboard
 
-create with React.
+![movie](./image/movie.png)
+
+create with ReactJS.
