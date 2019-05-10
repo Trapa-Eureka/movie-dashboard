@@ -2,6 +2,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: #F0F3F9;
+    padding: 40px 130px 40px 90px;
 }
 .headers input {
     background-color: transparent;
@@ -21,7 +23,7 @@
     font-weight: 600;
     font-size: 15px;
 }
-.right select {
+.headers select {
     background-color: transparent;
     border: none;
     outline: none;

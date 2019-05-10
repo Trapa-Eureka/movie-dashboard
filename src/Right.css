@@ -1,0 +1,15 @@
+.right {
+    background-color: #eff3f8;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 0;
+    padding: 40px 10px 40px 90px;
+    height: 90vh;
+    overflow-y: scroll;
+}
+
+.wrap {
+    display: grid;
+    grid-template-rows: repeat(2, max-content);
+    grid-gap: 0;
+}
