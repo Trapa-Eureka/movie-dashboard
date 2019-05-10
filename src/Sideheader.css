@@ -1,0 +1,32 @@
+.headers {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.headers input {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    color: #bcc5de;
+    border-bottom: 1px solid #bcc5de;
+    padding: 8px 0px 8px 0px;
+}
+.headers .icon {
+    width: 20px;
+    height: 20px;
+}
+.headers input::placeholder {
+    color: #bcc5de;
+    font-weight: 600;
+    font-size: 15px;
+}
+.right select {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    padding: 8px 0px 8px 0px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #bcc5de;
+}
