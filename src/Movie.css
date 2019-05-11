@@ -131,12 +131,25 @@ ul, li {
     .Movie{
         width:100%;
     }
+    .right {
+        display: grid !important;
+        grid-template-columns: 1fr !important;
+        padding: 40px 50px 40px 30px !important;
+    }
+    .headers {
+        padding: 40px 30px 40px 30px !important;
+    }
 }
 
 @media screen and (min-width:320px) and (max-width:667px) and (orientation: portrait){
     .Movie{
         width:100%;
         flex-direction: column;
+    }
+    .right {
+        display: grid !important;
+        grid-template-columns: 1fr !important;
+        padding: 40px 50px 40px 30px !important;
     }
     .Movie__Poster{
         top:0;

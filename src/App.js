@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import Side from './Side.js';
-import Right from './Right.js'
+import Right from './Right.js';
 
 class App extends Component {
 

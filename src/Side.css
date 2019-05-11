@@ -155,3 +155,24 @@ li.selected svg, li.selected p {
     margin: 0 auto;
     background-color: #c0c4d6;
 }
+
+@media screen and (min-width:320px) and (max-width:667px) {
+    li.activity .count {
+        width: 10px;
+        height: 10px;
+        border-radius: 20px;
+        padding: 7px;
+        line-height: 10px;
+        margin-left: 7px;
+    }
+}
+@media screen and (min-width:320px) and (max-width:667px) and (orientation: portrait) {
+    li.activity .count {
+        width: 10px;
+        height: 10px;
+        border-radius: 20px;
+        padding: 7px;
+        line-height: 10px;
+        margin-left: 7px;
+    }
+}
